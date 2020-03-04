@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Menu from './Menu';
 
 class App extends Component {
 
@@ -12,14 +13,13 @@ class App extends Component {
 console.log(">>>inside of component Will Mount>>>");
   }
   render() {
-    console.log(">>>Inside render>>")
     return (
       <div className="App">
-        <h1>Hello App</h1>
+        <Menu />
       </div>
     );
   }
 }
 
-
 export default (App);
+
